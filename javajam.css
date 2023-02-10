@@ -2,6 +2,10 @@ body {
     background-color: #FCEBB6;
     color: #221811;
     font-family: Tahoma, Arial, sans-serif;
+    background-image: url(fadedroad50.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 
 }
 
@@ -9,10 +13,13 @@ header {
     color: #8C3826;
     background-color: #D2B48C;
     text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 h1 {
-    line-height: 200%;
+    font-size: 3em;
+
 }
 
 h2 {
@@ -22,6 +29,14 @@ h2 {
 nav {
     text-align: center;
     font-weight: 900;
+    font-size: 1.5em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+nav a {
+    text-decoration: none;
 }
 
 footer {
@@ -36,4 +51,53 @@ footer {
     background-color: #FEFAEB;
     margin-right: auto;
     margin-left: auto;
+    min-width: 900px;
+    max-width: 1280px;
+    box-shadow: 3px 3px 3px black;
+    padding: 1em;
+    border-top: solid 2px #8C3826;
+}
+
+h4 {
+    background-color: #D2B48C;
+    font-size: 1.2em;
+    padding-left: .5em;
+    padding-bottom: .25em;
+
+}
+
+h3 {
+    color: #8C3826;
+}
+
+dt {
+    color: #8C3826;
+}
+
+main {
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    display: block;
+}
+
+.details {
+    padding-left: 20%;
+    padding-right: 20%;
+
+}
+
+img {
+    padding-left: 10px;
+    padding-right: 10px;
+
+
+}
+
+#homehero {
+    background-image: url(hero.jpg);
+    height: 300px;
+
+    background-size: cover;
+    background-repeat: no-repeat;
 }
