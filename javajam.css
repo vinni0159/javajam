@@ -12,18 +12,40 @@ body {
 header {
     color: #8C3826;
     background-color: #D2B48C;
-    text-align: center;
+    background-image: url(./coffeelogo.jpg);
+    background-repeat: no-repeat;
+    padding-left: 240px;
+    color: #231814;
     padding-top: 5px;
     padding-bottom: 5px;
 }
 
+header a:link {
+    text-decoration: none;
+    color: #231814;
+}
+
+header a:visited {
+    text-decoration: none;
+    color: #231814;
+}
+
+header a:hover {
+    text-decoration: none;
+    color: #FEF6C2;
+}
+
 h1 {
     font-size: 3em;
+    padding-left: 3em;
+    padding-right: 2em;
 
 }
 
 h2 {
     color: #8C3826;
+    padding-left: 3em;
+    padding-right: 2em;
 }
 
 nav {
@@ -32,11 +54,30 @@ nav {
     font-size: 1.5em;
     padding-top: 5px;
     padding-bottom: 5px;
+    float: left;
+    width: 200px;
 
 }
 
 nav a {
     text-decoration: none;
+}
+
+nav a:link {
+    color: #FEF6C2;
+}
+
+nav a:visited {
+    color: #D2B48C;
+}
+
+nav a:hover {
+    color: #CC9933;
+}
+
+nav ul {
+    padding-left: 0;
+    list-style-type: none;
 }
 
 footer {
@@ -48,14 +89,24 @@ footer {
 
 #wrapper {
     width: 80%;
-    background-color: #FEFAEB;
+    background-color: #231814;
     margin-right: auto;
     margin-left: auto;
     min-width: 900px;
     max-width: 1280px;
     box-shadow: 3px 3px 3px black;
-    padding: 1em;
+    padding: 0;
     border-top: solid 2px #8C3826;
+}
+
+p {
+    padding-left: 3em;
+    padding-right: 2em;
+}
+
+div {
+    padding-left: 3em;
+    padding-right: 2em;
 }
 
 h4 {
@@ -63,11 +114,19 @@ h4 {
     font-size: 1.2em;
     padding-left: .5em;
     padding-bottom: .25em;
+    padding-left: 3em;
+    padding-right: 2em;
+    float: none;
+    padding-bottom: 0;
+    border-bottom: solid 2px #8C3826;
+    text-transform: uppercase;
 
 }
 
 h3 {
     color: #8C3826;
+    padding-left: 3em;
+    padding-right: 2em;
 }
 
 dt {
@@ -75,15 +134,20 @@ dt {
 }
 
 main {
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-left: 0;
+    padding-right: 0;
     padding-bottom: 2em;
+    margin-left: 200px;
+    padding-top: 0;
     display: block;
+    background-color: #FEF6C2;
+    overflow: auto;
 }
 
 .details {
     padding-left: 20%;
     padding-right: 20%;
+    overflow: auto;
 
 }
 
@@ -97,7 +161,35 @@ img {
 #homehero {
     background-image: url(hero.jpg);
     height: 300px;
-
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
+}
+
+#heromugs {
+    background-image: url(./heromugs.jpg);
+    height: 300px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#heroguitar {
+    background-image: url(./heroguitar.jpg);
+    height: 300px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.floatleft {
+    float: left;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+
+.onethird {
+    float: left;
+    width: 33%;
 }
